@@ -42,7 +42,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/web/teaching/";
+            window.location.href = "/web/recruit/";
           },
         },{id: "post-a-post-with-plotly-js",
         
