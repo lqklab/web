@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/web/";
     },
-  },{id: "nav-新闻",
-          title: "新闻",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/web/news/";
-          },
-        },{id: "nav-团队成员",
+  },{id: "nav-团队成员",
           title: "团队成员",
           description: "members of the lab or group",
           section: "Navigation",
@@ -30,26 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/web/publications/";
           },
-        },{id: "nav-招生招聘",
-          title: "招生招聘",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/web/teaching/";
-          },
-        },{id: "nav-blog",
-          title: "blog",
+        },{id: "nav-研究项目",
+          title: "研究项目",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/web/blog/";
+            window.location.href = "/web/projects/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-新闻",
+          title: "新闻",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/web/projects/";
+            window.location.href = "/web/news/";
+          },
+        },{id: "nav-招生招聘",
+          title: "招生招聘",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/web/teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -414,15 +407,7 @@ ninja.data = [{
             window.location.href = "/web/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/web/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+      },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
@@ -430,7 +415,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-组内活动",
+          title: '组内活动',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/web/news/group-activities/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
