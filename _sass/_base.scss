@@ -192,6 +192,147 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  .title-box {
+    background-color: #5692db; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    padding: 10px 20px; /* 内边距 */
+    border-radius: 3px; /* 圆角边框 */
+    font-size: 16px; /* 字体大小 */
+    font-weight: bold; /* 加粗 */
+    line-height: 1.5; /* 行高 */
+    margin-right: 0px; /* 右边距 */
+    margin-top: 10px; /* 调整位置 */
+  }
+  .title-line {
+    flex-grow: 1;
+    border-top: 2px solid #1A5DB0; /* 顶部边框线 */
+    height: 0;
+    margin-top: -1px; /* 调整位置 */
+  }
+}
+
+.profile-description {
+  .description-section {
+    margin-bottom: 1.5rem;
+    
+    h3 {
+      color: #333;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+  }
+}
+
+.profile-prof {
+
+  .profile-header {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-title {
+    font-size: 20px;
+    color: #0047AB;
+    margin-bottom: 10px;
+  }
+
+  .profile-english-name {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .profile-positions {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  .position {
+    background-color: #e6f0ff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .profile-condition {
+    background-color: #FAFAFA; /* 设置背景颜色为灰色 */
+    padding: 10px; /* 添加内边距 */
+    margin-top: 10px; /* 调整与上方内容的间距 */
+    border-radius: 8px; /* 添加圆角 */
+  }
+  
+  .profile-condition h3 {
+    margin-top: 0; /* 调整标题与上方内容的间距 */
+    margin-bottom: 5px; /* 调整标题与下方内容的间距 */
+    color: #333;
+  }
+  
+  .profile-condition p {
+    margin: 0 0 10px; /* 调整段落之间的间距 */
+    color: #555;
+  }
+  
+  .profile-condition a {
+    color: #333; /* 邮箱链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+  }
+  
+  .profile-condition a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+  }
+}
+
+.profile-image {
+  width: 200px;  // 设置固定宽度
+  height: auto;  // 保持宽高比
+  align-self: flex-start;  // 垂直方向靠上对齐
+  margin: 0 20px 0 0;  // 右侧margin，其他方向为0
+  border-radius: 8px;  // 保持圆角
+  object-fit: cover;  // 确保图片合适填充
+}
+
+.profile-info {
+  max-width: 700px;
+}
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+
 .profile {
   width: 100%;
   // background-color: rgba(140, 93, 155, 0.041);
@@ -205,6 +346,67 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
+  }
+}
+
+.recruitment-header {
+  .hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+  }
+
+  .hero-content {
+    max-width: 500px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+  }
+
+  .hero-content p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .hero-content button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .hero-content button:hover {
+    background-color: #e6b800;
+  }
+
+  .hero-image {
+    width: 40%;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hero-image img {
+    width: 80%;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 }
 
@@ -239,6 +441,22 @@ ul.task-list input[type="checkbox"] {
       color: var(--global-theme-color);
       text-decoration: none;
     }
+  }
+}
+
+
+.main-header {
+  width: 100%;
+  max-height: 100px;
+  background-color: rgba(201, 13, 6, 0.719);
+  color: white;
+  padding: 10px;
+  text-align: center; /* 使内容居中 */
+  margin-bottom: 10px; /* 添加底部间距 */
+
+  img {
+    max-width: 100%;
+    max-height: 90px;
   }
 }
 
@@ -498,12 +716,14 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
+  background-color: var(--global-footer-bg-color);
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.9rem;
 
   .container {
+    color: var(--global-footer-text-color);
     text-align: center;
   }
 }

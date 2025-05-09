@@ -2,21 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: LiangLab # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+title: 梁桥康课题组 # the website title (if blank, full name will be used instead)
+first_name: 湖南大学-梁桥康团队机器人多模态研究组
+middle_name: 
+last_name: 
+contact_note: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <br><span style="color: var(--global-footer-text-color)" id="busuanzi_container_site_pv">本站总访问量<span style="color: var(--global-footer-text-color); font-weight: bold;" id="busuanzi_value_site_pv"></span>次</span>
+  ，您是第<span style="color: var(--global-footer-text-color); font-weight: bold;" id="busuanzi_value_site_uv"></span>个小伙伴
+  <br>Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: cn # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 8.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: hnu-logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://lqklab.github.io # the base hostname & protocol for your site
 baseurl: /web # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -49,7 +49,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true

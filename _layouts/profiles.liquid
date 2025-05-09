@@ -3,36 +3,48 @@ layout: default
 ---
 <div class="post">
   <article>
+    <div class="title-container">
+      <div class="title-box">课题组负责人</div>
+      <div class="title-line"></div>
+    </div>
     {{ content }}
   </article>
+
   <article>
+    <div class="title-container">
+      <div class="title-box">在校生</div>
+      <div class="title-line"></div>
+    </div>
 
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
+
+        <div class="profile-card">
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.1}}px, (min-width: 576px) 23vw, 95vw{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
+            <img src="{{ profile_image_path | relative_url }}" alt="{{ profile.name }}" class="profile-image">
+          <div class="profile-info">
+            <div class="profile-name">
+              <h2>{{ profile.name }}</h2>
+            </div>
+            <p>{{ profile.title }}</p >
+            <div class="profile-condition">
+              <h3>基本情况</h3>
+              <p>{{ profile.description }}</p >
+              <p><strong>邮箱：<a href="mailto:{{ profile.email }}">{{ profile.email }}</a></strong></p>
+              {% if profile.more_info %}
+                <p>{{ profile.more_info }}</p >
+              {% endif %}
+            </div>
+          </div>
         </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% comment %} {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %} {% endcomment %}
-            {{ profile.content | markdownify }}
-          {% endif %}
-        </div>
       {% endfor %}
     {% endif %}
+
+    <div class="title-container">
+      <div class="title-box">已毕业</div>
+      <div class="title-line"></div>
+    </div>
   </article>
 </div>
