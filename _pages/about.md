@@ -32,37 +32,39 @@ images:
 </swiper-container>
 
 
-<div style="margin: 10px">
-<div class='titleText titleText837'><span class='bannerNormalTitle fk_mainTitle mainTitle mainTitle837'>常用网站</span></div>
 
-<div class='formMiddleContent formMiddleContent837 fk-formContentOtherPadding' tabStyle='0'>
-<a href="http://www.nature.com/siteindex/index.html" target="_blank" title="Nature / 自然"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgm4XgxQUo2OmLxwQwvQE4gQE.png" alt="" /></a>
-<a href="http://webofknowledge.com" target="_blank" title="Web of Science / SCI"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgu8rUxQUoqpithQEwzQQ4qwI.png" alt="" /></a>
+<div>
+  <h4 class="title-home">常用网站</h4>
 
-<a href="http://onlinelibrary.wiley.com/" target="_blank" title="Wiley"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgkIXgxQUo9NfumwMw4wI4jgE.png" alt="" /></a>
-<a href="https://www.elsevier.com/" target="_blank" title="Elsevier "><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgv9akzAUoiqLOlQIwigU4nQM.png" alt="" /></a>
-<a href="http://www.scibull.com:8080/EN/volumn/home.shtml" target="_blank" title="Science Bulletin / 科学通报"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgl-WQxQUo2KyY6wMw-gw4kQc.jpg" alt="" /></a>
-<a href="http://mts-nature.nature.com/cgi-bin/main.plex" target="_blank" title="NATURE manuscript submission"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAg09PUxQUosJq0wwIwnwM4hgI.png" alt="" /></a>
-<a href="http://www.editorialmanager.com/anie/default.aspx" target="_blank" title="WILEY manuscript submission"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAg9cPUxQUoiZaStgMw8AE4jAE.png" alt="" /></a>
+  <div class="link-container">
+    <a href="http://www.nature.com/siteindex/index.html" class="link-item" target="_blank" title="Nature / 自然">
+      <img src="https://media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg" alt="" />
+    </a>
+    <a href="http://webofknowledge.com" class="link-item" target="_blank" title="Web of Science / SCI">
+      <img src="https://customimages.webofknowledge.com/clarivate_82x57.png" alt="" />
+    </a>
+    <a href="http://onlinelibrary.wiley.com/" class="link-item" target="_blank" title="Wiley">
+      <img src="https://onlinelibrary.wiley.com/pb-assets/hub-assets/pericles/logo-header-1690978619437.png" alt="" />
+    </a>
+    <a href="https://www.elsevier.com/" class="link-item" target="_blank" title="Elsevier ">
+      <img src="https://www.elsevier.cn/images/elsevier-logo.svg" alt="" />
+    </a>
+    <a href="http://www.scibull.com:8080/EN/volumn/home.shtml" class="link-item" target="_blank" title="Science Bulletin / 科学通报">
+      <img src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgl-WQxQUo2KyY6wMw-gw4kQc.jpg" alt="" />
+    </a>
+    <a href="http://www.sciencemag.org/journals" class="link-item" target="_blank" title="Science / 科学">
+      <img src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgi4XgxQUokJjV2gYwsgI4pQE.png" alt="" />
+    </a>
+    <a href="http://www.most.gov.cn/" class="link-item" target="_blank" title="科技部">
+      <img src="https://www.most.gov.cn/images/header-title.png" alt="" />
+    </a>
+    <a href="http://www.cas.cn/" class="link-item" target="_blank" title="中国科学院">
+      <img src="https://www.cas.cn/images/z19_logo.png" alt="" />
+    </a>
+    <a href="http://www.nsfc.gov.cn/" class="link-item" target="_blank" title="自然科学基金委">
+      <img src="https://i4.antpedia.com/attachments/2019/12/202148_201912161441361.jpg" alt="" />
+    </a>
+      <!-- 添加更多链接 -->
+  </div>
 
-<a href="http://www.sciencemag.org/journals" target="_blank" title="Science / 科学"><img width="110" height="60" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgi4XgxQUokJjV2gYwsgI4pQE.png" alt="" /></a>
-<a href="http://www.most.gov.cn/" target="_blank" title="科技部"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgk4XgxQUowOC0gAcwpQI4rAE.png" alt="" /></a>
-
-<a href="http://www.cas.cn/" target="_blank" title="中国科学院"><img width="70" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAglYXgxQUokJzu1AYw4QE44QE.png" alt="" /></a>
-
-<a href="http://www.nsfc.gov.cn/" target="_blank" title="自然科学基金委"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgh4XgxQUosLPQRjCaAjizAQ.jpg" alt="" /></a>
-
-<a href="http://cassi.cas.org/search.jsp" target="_blank" title="CASSI"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgyKDGzwUo7N-FvQUw3AE4jAE.pnghttp://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgyKDGzwUo7N-FvQUw3AE4jAE.png" alt="" /></a>
-<a href="https://mc.manuscriptcentral.com/nr" target="_blank" title="Nanoscale"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgy5KmzAUoz4PhhgYwrgU4nwM.png" alt="" /></a>
-<a href="https://eeslive.elsevier.com/biomat/default.asp?pg=login.asp" target="_blank" title="Biomaterials"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAguZemzAUor7K23AcwngU4nwM.png" alt="" /></a>
-<a href="https://acs.manuscriptcentral.com/acs" target="_blank" title="ACS manuscript submission"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAg-MPUxQUokNnCtQUwvAI4uQE.png" alt="" /></a>
-
-<a href="https://www.alfa.com/zh-cn/" target="_blank" title="Alfa Aesar"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgq97UxQUo06vsvQEwpAI4rAE.png" alt="" /></a>
-
-
-<a href="http://www.nanoanalyst.org/" target="_blank" title="Nanoanalyst"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgyPLWxwUopvXPtgEwzhI4qwk.jpg" alt="" /></a>
-<a href="http://www2.soopat.com/Home/IIndex" target="_blank" title="专利搜索引擎"><img width="110" height="70" src="http://12742044.s21i-12.faiusr.com/3/ABUIABADGAAgnfSSxwUouJz_4wcwngI4bg.gif" alt="" /></a>
-
-
-</div>
 </div>
