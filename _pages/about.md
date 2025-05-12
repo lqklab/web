@@ -59,10 +59,22 @@ images:
       <img src="https://www.most.gov.cn/images/header-title.png" alt="" />
     </a>
     <a href="http://www.cas.cn/" class="link-item" target="_blank" title="中国科学院">
-      <img src="https://www.cas.cn/images/z19_logo.png" alt="" />
+      <img src="https://pic.biodiscover.com/files/n/zm/201708011549196551.jpg" alt="" />
     </a>
     <a href="http://www.nsfc.gov.cn/" class="link-item" target="_blank" title="自然科学基金委">
       <img src="https://i4.antpedia.com/attachments/2019/12/202148_201912161441361.jpg" alt="" />
+    </a>
+    <a href="https://robot.hnu.edu.cn/index.htm" class="link-item" target="_blank" title="机器人视觉感知与控制技术国家工程研究中心">
+      <img src="https://robot.hnu.edu.cn/images/logo1.png" alt="" />
+    </a>
+    <a href="https://eeit.hnu.edu.cn/" class="link-item" target="_blank" title="电气与信息工程学院">
+      <img src="https://eeit.hnu.edu.cn/images/logo.gif" alt="" />
+    </a>
+    <a href="https://www.patenthub.cn/" class="link-item" target="_blank" title="专利汇">
+      <img src="https://www.patenthub.cn/images/logo_lg-f1374e94dbc2a84667333ae23dd25ed9e38d3d9c.png" alt="" />
+    </a>
+    <a href="https://ieeexplore.ieee.org/" class="link-item" target="_blank" title="IEEExplore">
+      <img src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/customers/1879/images/IEEE_Xplore.JPG" alt="" />
     </a>
       <!-- 添加更多链接 -->
   </div>
