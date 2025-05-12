@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lqklab.github.io/web/sitemap.xml
+Sitemap: http://web.lqkhnu.top/sitemap.xml
