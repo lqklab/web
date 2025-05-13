@@ -3,7 +3,6 @@ layout: about
 title: 主页
 permalink: /
 
-
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
@@ -31,14 +30,11 @@ images:
   {% endfor %}
 </swiper-container>
 
-
-
 <div>
   <h4 class="title-home">常用网站</h4>
-
   <div class="link-container">
     <a href="http://www.nature.com/siteindex/index.html" class="link-item" target="_blank" title="Nature / 自然">
-      <img src="https://media.springernature.com/full/nature-cms/uploads/product/nature/header-86f1267ea01eccd46b530284be10585e.svg" alt="" />
+      <img src="https://seismo.berkeley.edu/press_img/nature-journal.jpg" alt="" />
     </a>
     <a href="http://webofknowledge.com" class="link-item" target="_blank" title="Web of Science / SCI">
       <img src="https://customimages.webofknowledge.com/clarivate_82x57.png" alt="" />
@@ -46,14 +42,11 @@ images:
     <a href="http://onlinelibrary.wiley.com/" class="link-item" target="_blank" title="Wiley">
       <img src="https://onlinelibrary.wiley.com/pb-assets/hub-assets/pericles/logo-header-1690978619437.png" alt="" />
     </a>
-    <a href="https://www.elsevier.com/" class="link-item" target="_blank" title="Elsevier ">
-      <img src="https://www.elsevier.cn/images/elsevier-logo.svg" alt="" />
-    </a>
-    <a href="http://www.scibull.com:8080/EN/volumn/home.shtml" class="link-item" target="_blank" title="Science Bulletin / 科学通报">
-      <img src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgl-WQxQUo2KyY6wMw-gw4kQc.jpg" alt="" />
+    <a href="https://www.elsevier.com/" class="link-item" target="_blank" title="Elsevier">
+      <img src="https://www.whxb.pku.edu.cn/images/1000-6818/images/ElsevierLogo.png" alt="" />
     </a>
     <a href="http://www.sciencemag.org/journals" class="link-item" target="_blank" title="Science / 科学">
-      <img src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgi4XgxQUokJjV2gYwsgI4pQE.png" alt="" />
+      <img src="https://www.most.org/wp-content/uploads/2020/05/Science-AAAS-300x116.png" alt="" />
     </a>
     <a href="http://www.most.gov.cn/" class="link-item" target="_blank" title="科技部">
       <img src="https://www.most.gov.cn/images/header-title.png" alt="" />
@@ -74,9 +67,8 @@ images:
       <img src="https://www.patenthub.cn/images/logo_lg-f1374e94dbc2a84667333ae23dd25ed9e38d3d9c.png" alt="" />
     </a>
     <a href="https://ieeexplore.ieee.org/" class="link-item" target="_blank" title="IEEExplore">
-      <img src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/customers/1879/images/IEEE_Xplore.JPG" alt="" />
+      <img src="https://faculty.eng.ufl.edu/computing-for-life/wp-content/uploads/sites/68/2020/07/Logo-IEEE-Xplore-300x52.png" alt="" />
     </a>
       <!-- 添加更多链接 -->
   </div>
-
 </div>

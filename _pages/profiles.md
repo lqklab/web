@@ -13,7 +13,7 @@ profiles:
     image: members/秦海.png
     name: 秦海
     title: 博士后 控制科学与工程
-    description: > 
+    description: >
       博士毕业于湖南大学，电气工程专业。研究方向为机器人智能视觉感知与控制。
     email: qinhai@hnu.edu.cn
 
@@ -21,7 +21,7 @@ profiles:
     image: members/邓淞允.png
     name: 邓淞允
     title: 2021级博士研究生 控制科学与工程 硕博连读
-    description: > 
+    description: >
       主要研究方向为机器人视觉感知与抓取/轻量化模型与持续学习，参与发表论文于IEEE TIM、TAI等多个期刊。
     email: songyun@hnu.edu.cn
     more_info: >
@@ -33,7 +33,7 @@ profiles:
     title: 博士
     description: >
       2023级控制科学与工程学术型博士研究生
-    email: ''
+    email: songtao@hnu.edu.cn
 
   - align: right
     image: members/肖文星.png
@@ -43,7 +43,7 @@ profiles:
       本科毕业于华中农业大学工学院，自动化专业。研究方向为机器人视触觉感知与控制。
     email: Xiaowx126@163.com
 
-  - align: right 
+  - align: right
     image: members/吴坤宁.png
     name: 吴坤宁
     title: 2024级博士研究生 电子信息
@@ -204,9 +204,7 @@ profiles:
     description: >
       本科毕业于湖南大学，自动化专业。研究方向为机器人抓取。
     email: 18376187689@163.com
-
 ---
-
 
 <!-- 导师信息 -->
 <hr>
@@ -239,6 +237,5 @@ profiles:
     </div>
   </div>
 </div>
-
 
 <!-- 其他成员信息将通过 profiles layout 自动渲染 -->

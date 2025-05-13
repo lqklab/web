@@ -4,7 +4,8 @@ layout: default
 <div class="post">
   <header class="post-header">
     <div class="main-header">
-      <img src="{{ 'assets/img/top-bar.png' | relative_url }}" alt="梁桥康课题组" decoding="async">
+      {% comment %} <img src="{{ 'assets/img/top-bar.png' | relative_url }}" alt="梁桥康课题组" decoding="async"> {% endcomment %}
+      {% include figure.liquid loading="eager" path='assets/img/top-bar.png' width="" %}
     </div>
   </header>
 

@@ -206,7 +206,9 @@ ul.task-list input[type="checkbox"] {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
   }
   .link-item:hover {
     transform: scale(1.1);
@@ -234,7 +236,6 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-text-color);
   margin-bottom: 1rem;
   text-align: left;
-  
 }
 
 // Profile
@@ -256,7 +257,7 @@ ul.task-list input[type="checkbox"] {
   }
   .title-line {
     flex-grow: 1;
-    border-top: 2px solid #1A5DB0; /* 顶部边框线 */
+    border-top: 2px solid #1a5db0; /* 顶部边框线 */
     height: 0;
     margin-top: -1px; /* 调整位置 */
   }
@@ -265,7 +266,6 @@ ul.task-list input[type="checkbox"] {
 .profile-description {
   .description-section {
     margin-bottom: 1.5rem;
-    
     h3 {
       color: var(--global-text-color);
       margin-bottom: 1rem;
@@ -281,7 +281,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile-prof {
-
   .profile-header {
     display: flex;
     margin-bottom: 2rem;
@@ -297,7 +296,7 @@ ul.task-list input[type="checkbox"] {
 
   .profile-title {
     font-size: 20px;
-    color: #0047AB;
+    color: #0047ab;
     margin-bottom: 10px;
   }
 
@@ -319,9 +318,7 @@ ul.task-list input[type="checkbox"] {
     margin-right: 5px;
     margin-bottom: 5px;
   }
-
 }
-
 
 .profile-card {
   display: flex;
@@ -337,35 +334,31 @@ ul.task-list input[type="checkbox"] {
     margin-top: 10px; /* 调整与上方内容的间距 */
     border-radius: 8px; /* 添加圆角 */
   }
-  
   .profile-condition h3 {
     margin-top: 0; /* 调整标题与上方内容的间距 */
     margin-bottom: 5px; /* 调整标题与下方内容的间距 */
     // color: #333;
   }
-  
   .profile-condition p {
     margin: 0 0 10px; /* 调整段落之间的间距 */
     // color: #555;
   }
-  
   .profile-condition a {
     // color: #333; /* 邮箱链接颜色 */
     text-decoration: none; /* 去掉下划线 */
   }
-  
   .profile-condition a:hover {
     text-decoration: underline; /* 鼠标悬停时显示下划线 */
   }
 }
 
 .profile-image {
-  width: 200px;  // 设置固定宽度
-  height: auto;  // 保持宽高比
-  align-self: flex-start;  // 垂直方向靠上对齐
-  margin: 0 20px 0 0;  // 右侧margin，其他方向为0
-  border-radius: 8px;  // 保持圆角
-  object-fit: cover;  // 确保图片合适填充
+  width: 200px; // 设置固定宽度
+  height: auto; // 保持宽高比
+  align-self: flex-start; // 垂直方向靠上对齐
+  margin: 0 20px 0 0; // 右侧margin，其他方向为0
+  border-radius: 8px; // 保持圆角
+  object-fit: cover; // 确保图片合适填充
 }
 
 .profile-info {
@@ -377,7 +370,6 @@ ul.task-list input[type="checkbox"] {
   color: #333;
   margin-bottom: 5px;
 }
-
 
 .profile {
   width: 100%;
@@ -400,7 +392,7 @@ ul.task-list input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #7db9e8 100%);
     color: white;
     padding: 50px 20px;
     position: relative;
@@ -451,8 +443,12 @@ ul.task-list input[type="checkbox"] {
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
@@ -489,7 +485,6 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
-
 
 .main-header {
   width: 100%;

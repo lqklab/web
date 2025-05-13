@@ -2,7 +2,7 @@
 layout: page
 title: 研究项目
 permalink: /projects/
-description: 
+description:
 nav: true
 nav_order: 3
 display_categories: [work, fun]
