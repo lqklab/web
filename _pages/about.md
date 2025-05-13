@@ -49,11 +49,8 @@ images:
     <a href="https://www.elsevier.com/" class="link-item" target="_blank" title="Elsevier ">
       <img src="https://www.elsevier.cn/images/elsevier-logo.svg" alt="" />
     </a>
-    <a href="http://www.scibull.com:8080/EN/volumn/home.shtml" class="link-item" target="_blank" title="Science Bulletin / 科学通报">
-      <img src="http://12742044.s21i-12.faiusr.com/2/ABUIABACGAAgl-WQxQUo2KyY6wMw-gw4kQc.jpg" alt="" />
-    </a>
     <a href="http://www.sciencemag.org/journals" class="link-item" target="_blank" title="Science / 科学">
-      <img src="http://12742044.s21i-12.faiusr.com/4/ABUIABAEGAAgi4XgxQUokJjV2gYwsgI4pQE.png" alt="" />
+      <img src="http://lib.itpcas.ac.cn/image/image_gallery?uuid=34029ad3-6460-4305-9e78-ad3a794d70a1&groupId=35872&t=1495070312373" alt="" />
     </a>
     <a href="http://www.most.gov.cn/" class="link-item" target="_blank" title="科技部">
       <img src="https://www.most.gov.cn/images/header-title.png" alt="" />
