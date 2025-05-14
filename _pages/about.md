@@ -9,7 +9,7 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -21,13 +21,23 @@ images:
   slider: true
 ---
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" loop="true" autoplay="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
-  {% assign image_files = site.static_files | where_exp: "file", "file.path contains 'assets/img/slideshow'" %}
-  {% for image in image_files %}
-    {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' or image.extname == '.gif' %}
-      <swiper-slide>{% include figure.liquid loading="eager" path=image.path class="img-fluid rounded z-depth-1" %}</swiper-slide>
-    {% endif %}
-  {% endfor %}
+<swiper-container
+  style="margin-top: -60px;"
+  keyboard="true"
+  navigation="true"
+  pagination="true"
+  pagination-clickable="true"
+  pagination-dynamic-bullets="true"
+  loop="true"
+  autoplay="true"
+  autoplay-delay="3000"
+  autoplay-disable-on-interaction="false">
+{% assign image_files = site.static_files | where_exp: "file", "file.path contains 'assets/img/slideshow'" %}
+{% for image in image_files %}
+{% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' or image.extname == '.gif' %}
+<swiper-slide>{% include figure.liquid loading="eager" path=image.path class="img-fluid z-depth-1" %}</swiper-slide>
+{% endif %}
+{% endfor %}
 </swiper-container>
 
 <div>

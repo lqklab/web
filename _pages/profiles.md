@@ -211,7 +211,7 @@ profiles:
 <div class="profile-prof">
   <div class="profile-card">
     <div class="profile-header">
-      <img src="{{ 'assets/img/prof_pic.jpg' | relative_url }}" alt="Profile Picture" class="profile-image">
+      {% include figure.liquid loading="eager" path='assets/img/prof_pic.jpg' alt=profile.name class="profile-image" %}
       <div class="profile-info">
         <div class="profile-title">湖南大学教授、博士生导师</div>
         <div class="profile-name">
