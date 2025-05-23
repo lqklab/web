@@ -19,8 +19,8 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
-      - http_proxy=http://192.168.50.7:7890
-      - https_proxy=http://192.168.50.7:7890
-      - HTTP_PROXY=http://192.168.50.7:7890
-      - HTTPS_PROXY=http://192.168.50.7:7890
+      - http_proxy=$http_proxy
+      - https_proxy=$http_proxy
+      - HTTP_PROXY=$http_proxy
+      - HTTPS_PROXY=$http_proxy
       - no_proxy=localhost,127.0.0.1
