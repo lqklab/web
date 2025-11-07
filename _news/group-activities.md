@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 组内活动
-date: 2024-11-07 16:11:00-0400
+date: 2022-9-20 16:11:00-0400
 related_posts: false
 images:
   lightbox2: true

@@ -2,6 +2,7 @@
 layout: default
 ---
 <div class="post">
+  <!-- ===== 课题组负责人 ===== -->
   <article>
     <div class="title-container">
       <div class="title-box">课题组负责人</div>
@@ -10,6 +11,7 @@ layout: default
     {{ content }}
   </article>
 
+  <!-- ===== 在校生 ===== -->
   <article>
     <div class="title-container">
       <div class="title-box">在校生</div>
@@ -19,7 +21,6 @@ layout: default
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-
         <div class="profile-card">
           {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
           {% include figure.liquid loading="eager" path=profile_image_path alt=profile.name class="profile-image" %}
@@ -44,10 +45,39 @@ layout: default
         </div>
       {% endfor %}
     {% endif %}
+  </article>
 
+  <!-- ===== 已毕业 ===== -->
+  <article>
     <div class="title-container">
       <div class="title-box">已毕业</div>
       <div class="title-line"></div>
     </div>
+
+    {% if page.alumni %}
+      {% for profile in page.alumni %}
+        <hr>
+        <div class="profile-card alumni-card">  <!-- 可加alumni-card类用于不同样式 -->
+          {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          {% include figure.liquid loading="eager" path=profile_image_path alt=profile.name class="profile-image" %}
+          <div class="profile-info">
+            <div class="profile-name"><h2>{{ profile.name }}</h2></div>
+            <p>{{ profile.title }}</p>
+            <div class="profile-condition">
+              <h3>基本情况</h3>
+              <p>{{ profile.description }}</p>
+              {% if profile.email %}
+                <p>
+                  <strong>邮箱：<a href="mailto:{{ profile.email }}">{{ profile.email }}</a></strong>
+                </p>
+              {% endif %}
+              {% if profile.more_info %}
+                <p>{{ profile.more_info }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
   </article>
 </div>
