@@ -1,3 +1,7 @@
+# frozen_string_literal: true
+# ---- disable external posts fetching due to docker network issue ----
+return
+
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
