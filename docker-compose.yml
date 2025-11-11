@@ -12,7 +12,7 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
-    network_mode: "host"
+    # network_mode: "host"
     ports:
       - 8080:8080
       - 35729:35729

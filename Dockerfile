@@ -74,5 +74,3 @@ COPY bin/entry_point.sh /tmp/entry_point.sh
 # USER $USERNAME
 
 CMD ["/tmp/entry_point.sh"]
-
-RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
