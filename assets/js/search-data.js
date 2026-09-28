@@ -394,16 +394,21 @@ ninja.data = [{
           description: "9.10 教师节登山",
           section: "News",handler: () => {
               window.location.href = "/news/group-activities/";
-            },},{id: "news-研电赛一等奖",
-          title: '研电赛一等奖',
-          description: "8.10 第19届研电赛总决赛",
+            },},{id: "news-全国研电赛一等奖",
+          title: '全国研电赛一等奖',
+          description: "实验室成员邓淞允、周立、裴瑞元获第十九届研电赛全国一等奖",
           section: "News",handler: () => {
               window.location.href = "/news/competition/";
-            },},{id: "news-iros2025学术会议",
-          title: 'IROS2025学术会议',
-          description: "10.20 IROS学术会议",
+            },},{id: "news-iros2025国际机器人会议",
+          title: 'IROS2025国际机器人会议',
+          description: "实验室成员欧阳松涛、肖文星在 IROS 2025 展示两项研究成果",
           section: "News",handler: () => {
               window.location.href = "/news/IROS2025/";
+            },},{id: "news-华为-揭榜挂帅-难题获全球第四",
+          title: '华为“揭榜挂帅”难题获全球第四',
+          description: "实验室成员黄兆、肖海华共同参与华为“多重组合约束下匹配组合优化问题”竞赛并获全球第四名",
+          section: "News",handler: () => {
+              window.location.href = "/news/huawei/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
