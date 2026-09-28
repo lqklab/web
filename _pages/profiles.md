@@ -70,7 +70,7 @@ profiles:
     name: 袁月
     title: 2026级博士研究生 电子信息专业
     description: >
-     硕士毕业于上海理工大学，运筹学与控制论专业。研究方向为面向失败恢复的VLA强化学习方法。
+      硕士毕业于上海理工大学，运筹学与控制论专业。研究方向为面向失败恢复的VLA强化学习方法。
     email: yuanyue31415@163.com
 
   - align: right
@@ -104,7 +104,7 @@ profiles:
     description: >
       本科毕业于湖南大学，自动化专业。研究方向为机器人抓取。
     email: 18376187689@163.com
-    
+
   - align: right
     image: members/邓映雪.png
     name: 邓映雪
@@ -116,7 +116,7 @@ profiles:
   - align: right
     image: members/徐梦杰.png
     name: 徐梦杰
-    title: 2025级硕士研究生 控制科学与工程 
+    title: 2025级硕士研究生 控制科学与工程
     description: >
       本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为视觉触觉传感器。
     email: 19554722387@163.com
@@ -140,7 +140,7 @@ profiles:
   - align: right
     image: members/任浩然.jpg
     name: 任浩然
-    title: 2025级硕士研究生 控制科学与工程 
+    title: 2025级硕士研究生 控制科学与工程
     description: >
       本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人柔顺控制。
     email: 192678@qq.com
@@ -200,7 +200,6 @@ profiles:
     description: >
       本科毕业于湖南大学，电子信息工程专业。研究方向为机器人触觉感知与控制技术。
     email: hnu_crx@126.com
- 
 
 alumni:
   - align: right
@@ -337,7 +336,6 @@ alumni:
     description: >
       本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人感知与控制工程。
     email: shenxinpu@hnu.edu.cn
-
 ---
 
 <!-- 导师信息 -->

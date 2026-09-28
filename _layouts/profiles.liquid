@@ -57,18 +57,23 @@ layout: default
     {% if page.alumni %}
       {% for profile in page.alumni %}
         <hr>
-        <div class="profile-card alumni-card">  <!-- 可加alumni-card类用于不同样式 -->
+        <div class="profile-card alumni-card">
+          <!-- 可加alumni-card类用于不同样式 -->
           {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
           {% include figure.liquid loading="eager" path=profile_image_path alt=profile.name class="profile-image" %}
           <div class="profile-info">
-            <div class="profile-name"><h2>{{ profile.name }}</h2></div>
+            <div class="profile-name">
+              <h2>{{ profile.name }}</h2>
+            </div>
             <p>{{ profile.title }}</p>
             <div class="profile-condition">
               <h3>基本情况</h3>
               <p>{{ profile.description }}</p>
               {% if profile.email %}
                 <p>
-                  <strong>邮箱：<a href="mailto:{{ profile.email }}">{{ profile.email }}</a></strong>
+                  <strong
+                    >邮箱：<a href="mailto:{{ profile.email }}">{{ profile.email }}</a></strong
+                  >
                 </p>
               {% endif %}
               {% if profile.more_info %}
