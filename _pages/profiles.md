@@ -14,33 +14,23 @@ profiles:
     name: 秦海
     title: 博士后 控制科学与工程
     description: >
-      博士毕业于湖南大学，电气工程专业。研究方向为机器人智能视觉感知与控制。
+      博士毕业于湖南大学，电气工程专业。参与发表论文于IEEE TMM、TIM等多个期刊。研究方向为机器人智能视觉感知与控制。
     email: qinhai@hnu.edu.cn
-
-  - align: right
-    image: members/邓淞允.png
-    name: 邓淞允
-    title: 2021级博士研究生 控制科学与工程 硕博连读
-    description: >
-      主要研究方向为机器人视觉感知与抓取/轻量化模型与持续学习，参与发表论文于IEEE TIM、TAI等多个期刊。
-    email: songyun@hnu.edu.cn
-    more_info: >
-      论文相关数据可见于个人主页：<a href="https://github.com/HNUsong">https://github.com/HNUsong</a >
 
   - align: right
     image: members/欧阳松涛.png
     name: 欧阳松涛
-    title: 博士
+    title: 2023级博士研究生 控制科学与工程
     description: >
-      2023级控制科学与工程学术型博士研究生
+      研究方向为医疗机器人力传感器设计。在IEEE TMECH 发表过研究论文，并于IROS 2025国际会议作口头报告。
     email: songtao@hnu.edu.cn
 
   - align: right
     image: members/肖文星.png
     name: 肖文星
-    title: 2024级博士研究生 控制科学与工程 硕博连读
+    title: 2024级博士研究生 控制科学与工程
     description: >
-      本科毕业于华中农业大学工学院，自动化专业。研究方向为机器人视触觉感知与控制。
+      本科毕业于华中农业大学工学院，自动化专业。研究方向为机器人视触觉感知与控制。在IEEE TMECH 发表过研究论文，并于IROS 2025国际会议作口头报告。
     email: Xiaowx126@163.com
 
   - align: right
@@ -54,116 +44,34 @@ profiles:
   - align: right
     image: members/李红豪.png
     name: 李红豪
-    title: 2021级硕士研究生 电子信息
+    title: 2025级博士研究生 控制科学与工程
     description: >
       本科毕业于合肥工业大学电气与自动化工程学院，自动化专业。研究方向为机器人力触觉感知与控制。
     email: honghao@hnu.edu.cn
 
   - align: right
-    image: members/周立.png
-    name: 周立
-    title: 2022级硕士研究生 电子信息
+    image: members/陈鸿鑫.png
+    name: 陈鸿鑫
+    title: 2026级博士研究生 控制科学与工程
     description: >
-      本科毕业于东华理工大学，自动化专业。研究方向为人工智能与机器人。
-    email: tda-2030@qq.com
-    more_info: >
-      Github：<a href="https://github.com/TDA-2030">https://github.com/TDA-2030</a>
+      本科毕业于上海第二工业大学，自动化专业。研究方向为机器人力触觉感知与控制。
+    email: 1006316063@qq.com
 
   - align: right
-    image: members/舒立业.png
-    name: 舒立业
-    title: 2022级硕士研究生 电子信息
+    image: members/袁伟杰.jpg
+    name: 袁伟杰
+    title: 2026级博士研究生 思政专项 智能科学与技术专业
     description: >
-      本科毕业于湖南大学，自动化专业。研究方向为视觉感知。
-    email: liye_shu@163.com
+      本科毕业于江西师范大学，广播电视编导专业。硕士毕业于英国曼彻斯特大学，教育技术学专业，研究方向为人工智能+教育。
+    email: yeswilliy@foxmail.com
 
   - align: right
-    image: members/李进涛.png
-    name: 李进涛
-    title: 2022级硕士研究生 控制科学与工程
+    image: members/袁月.jpg
+    name: 袁月
+    title: 2026级博士研究生 电子信息专业
     description: >
-      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为模式识别与机器学习。
-    email: 1445436902@qq.com
-
-  - align: right
-    image: members/殷义.png
-    name: 殷义
-    title: 2022级硕士研究生 电子信息 硕士在读
-    description: >
-      本科毕业于华北电力大学（保定）自动化系，测控技术与仪器专业。研究方向为视觉感知。
-    email: andayinv@163.com
-
-  - align: right
-    image: members/袁晓宇.png
-    name: 袁晓宇
-    title: 2023级硕士研究生 控制科学与工程 全日制硕士
-    description: >
-      本科毕业于西南交通大学机械工程学院，测控技术与仪器专业。研究方向为面向机器人精细操作的力视融合感知方法。
-    email: xyyuan2026@163.com
-
-  - align: right
-    image: members/周湛荟.png
-    name: 周湛荟
-    title: 2023级硕士研究生 控制科学与工程 硕士
-    description: >
-      本科毕业于南京农业大学工学院，车辆工程。研究方向为机器人力触觉感知与控制。
-    email: 1452460360@qq.com
-
-  - align: right
-    image: members/陈昕昊.png
-    name: 陈昕昊
-    title: 2024级博士研究生 控制科学与工程 硕士在读
-    description: >
-      本科毕业于华北水利水电大学电气学院，自动化专业。研究方向为机器人多模态感知和控制。
-    email: cxh5337@163.com
-
-  - align: right
-    image: members/刘铭峰.png
-    name: 刘铭峰
-    title: 2023级硕士研究生 控制科学与工程 硕士
-    description: >
-      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为面向针灸机器人智能化人体穴位识别。
-    email: 1015814920@qq.com
-
-  - align: right
-    image: members/张翔宇.png
-    name: 张翔宇
-    title: 2023级硕士研究生 电子信息 硕士在读
-    description: >
-      本科毕业于长沙理工大学电气与信息工程学院，轨道交通信号与控制专业。研究方向为机器视觉和模式识别。
-    email: yulle13@163.com
-
-  - align: right
-    image: members/柳力元.png
-    name: 柳力元
-    title: 2023级硕士研究生 控制科学与工程
-    description: >
-      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人感知与控制工程。
-    email: 907369904@qq.com
-
-  - align: right
-    image: members/裴瑞元.png
-    name: 裴瑞元
-    title: 2023级硕士研究生 控制科学与工程
-    description: >
-      本科毕业于湖南大学，自动化专业。研究方向为机器人与人工智能。
-    email: peiruiyuan@hnu.edu.cn
-
-  - align: right
-    image: members/郑正月.png
-    name: 郑正月
-    title: 2023级硕士研究生 电子信息
-    description: >
-      本科毕业于华东理工大学信息科学与工程学院，测控技术与仪器专业。研究方向为机器人感知与控制工程。
-    email: S2309W0752@hnu.edu.cn
-
-  - align: right
-    image: members/申新朴.png
-    name: 申新朴
-    title: 2023级硕士研究生 电子信息
-    description: >
-      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人感知与控制工程。
-    email: shenxinpu@hnu.edu.cn
+     硕士毕业于上海理工大学，运筹学与控制论专业。研究方向为面向失败恢复的VLA强化学习方法。
+    email: yuanyue31415@163.com
 
   - align: right
     image: members/王子康.png
@@ -182,14 +90,6 @@ profiles:
     email: Yueyal@hnu.edu.cn
 
   - align: right
-    image: members/陈鸿鑫.png
-    name: 陈鸿鑫
-    title: 2024级硕士研究生 电子信息
-    description: >
-      本科毕业于上海第二工业大学，自动化专业。研究方向为机器人力触觉感知与控制。
-    email: 1006316063@qq.com
-
-  - align: right
     image: members/杨世涌.png
     name: 杨世涌
     title: 2024级硕士研究生 电子信息
@@ -204,6 +104,240 @@ profiles:
     description: >
       本科毕业于湖南大学，自动化专业。研究方向为机器人抓取。
     email: 18376187689@163.com
+    
+  - align: right
+    image: members/邓映雪.png
+    name: 邓映雪
+    title: 2025级硕士研究生 电子信息
+    description: >
+      本科毕业于贵州大学电气工程学院，自动化专业。研究方向为机器人力触觉感知。
+    email: dengyxue@hnu.edu.cn
+
+  - align: right
+    image: members/徐梦杰.png
+    name: 徐梦杰
+    title: 2025级硕士研究生 控制科学与工程 
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为视觉触觉传感器。
+    email: 19554722387@163.com
+
+  - align: right
+    image: members/马同信.jpg
+    name: 马同信
+    title: 2025级硕士研究生 控制科学与工程
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人视觉感知与控制。
+    email: matongxin@hnu.edu.cn
+
+  - align: right
+    image: members/吴佳军.jpeg
+    name: 吴佳军
+    title: 2025级硕士研究生 电子信息
+    description: >
+      本科毕业于武汉理工大学自动化学院，自动化专业。研究方向为机器人视觉感知与控制。
+    email: 1019476315@qq.com
+
+  - align: right
+    image: members/任浩然.jpg
+    name: 任浩然
+    title: 2025级硕士研究生 控制科学与工程 
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人柔顺控制。
+    email: 192678@qq.com
+
+  - align: right
+    image: members/罗逸宸.jpg
+    name: 罗逸宸
+    title: 2025级硕士研究生 电子信息人工智能
+    description: >
+      本科毕业于河海大学人工智能与自动化学院，自动化专业。研究方向为机器人视觉感知。
+    email: 2099506364@qq.com
+
+  - align: right
+    image: members/唐奂.jpg
+    name: 唐奂
+    title: 2026级硕士研究生 电子信息专业
+    description: >
+      本科毕业于暨南大学，网络空间安全专业。研究方向为水下视觉。
+    email: 251915161@qq.com
+
+  - align: right
+    image: members/汪欢.jpg
+    name: 汪欢
+    title: 2026级硕士研究生 电子科学与技术专业
+    description: >
+      本科毕业于东北农业大学，物联网工程专业。研究方向为深度学习。
+    email: 15212820256@163.com
+
+  - align: right
+    image: members/黎瑾.jpg
+    name: 黎瑾
+    title: 2026级硕士研究生 电子信息专业
+    description: >
+      本科毕业于长沙理工大学，机器人工程专业。研究方向为深度学习。
+    email: l_lijin@163.com
+
+  - align: right
+    image: members/刘犇.jpg
+    name: 刘犇
+    title: 2026级硕士研究生 智能科学与技术专业
+    description: >
+      本科毕业于西南财经大学，人工智能专业。研究方向为机器人视觉感知与控制。
+    email: benliu@hnu.edu.cn
+
+  - align: right
+    image: members/王伟.jpg
+    name: 王伟
+    title: 2026级硕士研究生 控制科学与工程
+    description: >
+      本科毕业于湖南大学，自动化专业。研究方向为机器人三维视觉感知与控制。
+    email: wangwei2026@hnu.edu.cn
+
+  - align: right
+    image: members/陈日新.jpg
+    name: 陈日新
+    title: 2026级硕士研究生 控制科学与工程
+    description: >
+      本科毕业于湖南大学，电子信息工程专业。研究方向为机器人触觉感知与控制技术。
+    email: hnu_crx@126.com
+ 
+
+alumni:
+  - align: right
+    image: members/龙建勇.jpeg
+    name: 龙建勇
+    title: 控制科学与工程 22届博士毕业生 25年博士后出站
+    description: >
+      主要研究方向为机器人触觉感知，参与发表论文于IEEE TMECH、TIM，RCIM等多个期刊。现就职于兰州大学。
+    email: longjianyong@lzu.edu.cn
+    more_info: >
+      兰州大学个人主页：<a href="https://xxxy.lzu.edu.cn/shiziduiwu/jiaoshiduiwu/fujiaoshou/2026/0514/331656.html">龙建勇</a >
+
+  - align: right
+    image: members/邓淞允.jpg
+    name: 邓淞允
+    title: 2021级博士研究生 控制科学与工程 25届博士毕业生
+    description: >
+      主要研究方向为机器人视觉感知与抓取/轻量化模型与持续学习，参与发表论文于IEEE TMECH、TIM、TAI等多个期刊。现就职于长沙理工大学。
+    email: songyun4747@csust.edu.cn
+    more_info: >
+      长沙理工大学个人主页：<a href="https://www.csust.edu.cn/rgznxy/info/1168/2173.htm">邓淞允</a > <br>
+      个人 Github：<a href="https://github.com/HNUsong">https://github.com/HNUsong</a >
+
+  - align: right
+    image: members/周立.png
+    name: 周立
+    title: 2022级硕士研究生 电子信息 25届硕士毕业
+    description: >
+      本科毕业于东华理工大学，自动化专业。研究方向为人工智能与机器人。现就业于上海乐鑫科技。
+    email: tda-2030@qq.com
+    more_info: >
+      个人Github：<a href="https://github.com/TDA-2030">https://github.com/TDA-2030</a>
+
+  - align: right
+    image: members/舒立业.png
+    name: 舒立业
+    title: 2022级硕士研究生 电子信息 25届硕士毕业
+    description: >
+      本科毕业于湖南大学，自动化专业。研究方向为视觉感知。现就业于云南电网。
+    email: liye_shu@163.com
+
+  - align: right
+    image: members/李进涛.png
+    name: 李进涛
+    title: 2022级硕士研究生 控制科学与工程 25届硕士毕业
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为模式识别与机器学习。现就业于河南中烟工业。
+    email: 1445436902@qq.com
+
+  - align: right
+    image: members/殷义.png
+    name: 殷义
+    title: 2022级硕士研究生 电子信息 25届硕士毕业
+    description: >
+      本科毕业于华北电力大学（保定）自动化系，测控技术与仪器专业。研究方向为视觉感知。现就业于贵州电网。
+    email: andayinv@163.com
+
+  - align: right
+    image: members/邓展金.jpg
+    name: 邓展金
+    title: 2022级硕士研究生 电子信息 25届硕士毕业生
+    description: >
+      本科毕业于湖南大学。现就业于深圳比亚迪。
+    email: dzj395@hnu.edu.cn
+
+  - align: right
+    image: members/袁晓宇.png
+    name: 袁晓宇
+    title: 2023级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于西南交通大学机械工程学院，测控技术与仪器专业。研究方向为面向机器人精细操作的力视融合感知方法。
+    email: xyyuan2026@163.com
+
+  - align: right
+    image: members/周湛荟.png
+    name: 周湛荟
+    title: 2023级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于南京农业大学工学院，车辆工程。研究方向为机器人力触觉感知与控制。现就业于中国商飞长沙基地。
+    email: 1452460360@qq.com
+
+  - align: right
+    image: members/陈昕昊.png
+    name: 陈昕昊
+    title: 2024级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于华北水利水电大学电气学院，自动化专业。研究方向为机器人多模态感知和控制。现就业于广州烟草。
+    email: cxh5337@163.com
+
+  - align: right
+    image: members/刘铭峰.png
+    name: 刘铭峰
+    title: 2023级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为面向针灸机器人智能化人体穴位识别。
+    email: 1015814920@qq.com
+
+  - align: right
+    image: members/张翔宇.png
+    name: 张翔宇
+    title: 2023级硕士研究生 电子信息 26届硕士毕业
+    description: >
+      本科毕业于长沙理工大学电气与信息工程学院，轨道交通信号与控制专业。研究方向为机器视觉和模式识别。
+    email: yulle13@163.com
+
+  - align: right
+    image: members/柳力元.png
+    name: 柳力元
+    title: 2023级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人感知与控制工程。现就业于长沙景嘉微电子股份有限公司。
+    email: 907369904@qq.com
+
+  - align: right
+    image: members/裴瑞元.png
+    name: 裴瑞元
+    title: 2023级硕士研究生 控制科学与工程 26届硕士毕业
+    description: >
+      本科毕业于湖南大学，自动化专业。研究方向为机器人与人工智能。现就业于腾讯科技（深圳）有限公司。
+    email: peiruiyuan@hnu.edu.cn
+
+  - align: right
+    image: members/郑正月.png
+    name: 郑正月
+    title: 2023级硕士研究生 电子信息 26届硕士毕业
+    description: >
+      本科毕业于华东理工大学信息科学与工程学院，测控技术与仪器专业。研究方向为机器人感知与控制工程。
+    email: S2309W0752@hnu.edu.cn
+
+  - align: right
+    image: members/申新朴.png
+    name: 申新朴
+    title: 2023级硕士研究生 电子信息 26届硕士毕业
+    description: >
+      本科毕业于湖南大学电气与信息工程学院，自动化专业。研究方向为机器人感知与控制工程。
+    email: shenxinpu@hnu.edu.cn
+
 ---
 
 <!-- 导师信息 -->
@@ -218,7 +352,7 @@ profiles:
           <h2>梁桥康</h2>
         </div>
         <div class="profile-english-name">LIANGQIAOKANG</div>
-        <p>国家级青年人才项目入选者</p>
+        <p><strong>国家级青年人才项目入选者</strong></p>
         <div class="profile-positions">
           <span class="position">机器人视觉感知与控制技术国家工程研究中心副主任，岳麓学者</span>
           <span class="position">中国自动化学会智能制造系统与技术专委会副主任委员</span>
@@ -233,6 +367,13 @@ profiles:
       <div class="description-section">
         <h3>研究方向</h3>
         <p>机器人智能感知与控制、人工智能及其应用技术、机器人力触觉感知与应用。面向典型工业、医学、农业、运动竞技等场景对智能感知与控制技术的实际需求，聚焦复杂场景下感知与处理新方法和关键技术，实现力触觉感知、图像分割、识别、分类、检测等高效高精度信息处理，在复杂工业场景自动化检测、医学图像判读、农业病害信息辅助诊断的基础算法、支持精准诊断和治疗的图像处理方法等方面为促进工业现场自动化智能化、疾病诊断与治疗精细化、农业智能化水平提升发挥重要作用。</p>
+      </div>
+      <div class="description-section">
+        <h3>实验室开源数据与代码</h3>
+        <p> <a href="https://github.com/HNUsong/KWG2024">KWG2024数据集; </a>
+            <a href="https://github.com/HNUsong/KWG-CL">KWG-CL数据集; </a>
+            <a href="https://www.nbsdc.cn/general/dataDetail?id=6a034e9df175603f068d3585&type=1">针灸手法数据集</a> 
+        </p>
       </div>
     </div>
   </div>
